@@ -11,7 +11,7 @@ Rectangle {
     border.color: Theme.nord8
     radius: 8
     border.width: 2
-    width: 50
+    width: 55
     height: 70
 
     property Component widget: Qt.createComponent("CalendarWidget.qml")

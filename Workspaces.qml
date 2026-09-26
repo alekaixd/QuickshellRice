@@ -32,7 +32,7 @@ ColumnLayout {
             border.width: 2
             border.color: Theme.nord6
 
-            color: hover.hovered ? Theme.nord4 : isActive ? Theme.nord6 : (workspace ? Theme.aurora[index % spacesPerMonitor] : "transparent")
+            color: hover.hovered ? Theme.nord3 : isActive ? Theme.nord6 : (workspace ? Theme.aura[index % spacesPerMonitor] : "transparent")
 
             Behavior on color {
                 ColorAnimation {

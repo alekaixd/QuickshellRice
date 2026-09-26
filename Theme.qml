@@ -25,6 +25,7 @@ QtObject {
     property list<color> frost: ["#8fbcbb", "#88c0d0", "#81a1c1", "#5e81ac"]
 
     property list<color> aurora: ["#bf616a", "#d08770", "#ebcb8b", "#a3be8c", "#b48ead"]
+    property list<color> aura: ["#cad2e0", "#b4bdcf", "#a5aac4", "#9393b8", "#8a82ad"]
     readonly property string fontFamily: "JetBrainsMono Nerd Font"
     readonly property int fontSize: 16
 }

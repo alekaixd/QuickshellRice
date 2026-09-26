@@ -8,8 +8,8 @@ Rectangle {
     id: musicRect
     Layout.alignment: Qt.AlignHCenter
     color: Theme.nord3
-    width: 50
-    height: 50
+    width: 55
+    height: 55
     radius: 8
 
     property Component widget: Qt.createComponent("MainMenuWidget.qml")
